@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://hackers-delight.com/"/>
-  <updated>2019-10-29T14:22:05.425Z</updated>
+  <updated>2019-11-11T14:17:13.152Z</updated>
   <id>https://hackers-delight.com/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>macOS实现默认中文输入法Shift切换中英文</title>
+    <link href="https://hackers-delight.com/2019/11/11/macos-shift-to-capslock/"/>
+    <id>https://hackers-delight.com/2019/11/11/macos-shift-to-capslock/</id>
+    <published>2019-11-11T14:17:13.000Z</published>
+    <updated>2019-11-11T14:17:13.152Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="Why"><a href="#Why" class="headerlink" title="Why"></a>Why</h2><p>首先，回答一下为什么用 <code>macOS</code> 自带的默认输入法？就博主个人来说，主要是出于隐私考虑，以及回避广告联盟骚扰。其次，因为博主是 <code>Vim</code> 用户，因此 <code>CapsLock</code> 键已经修改为 <code>Ctrl</code>。</p><h2 id="基本配置"><a href="#基本配置" class="headerlink" title="基本配置"></a>基本配置</h2><p>下载 <a href="https://pqrs.org/osx/karabiner/" target="_blank" rel="noopener">Karabiner</a>，并安装；安装后会提示需要进行一些安全设置，按照说明设置即可。</p><p>在 <code>Karabiner</code> 中切换到 <code>Complex modifications</code>，点击左下角的 <code>Add rule</code>：</p><p><img src="/images/Xnip2019-11-11_21-55-42.png" alt="Xnip2019-11-11_21-55-42"></p><p>在弹出的对话框中选择 <code>Import more rules from the Internet (open a web browser)</code>：</p><p><img src="/images/Xnip2019-11-11_21-57-41.png" alt="Xnip2019-11-11_21-57-41"></p><p>在打开网站中找到如下配置，并导入：</p><p><img src="/images/Xnip2019-11-11_21-39-30.png" alt="Xnip2019-11-11_21-39-30"></p><p><img src="/images/Xnip2019-11-11_21-25-02.png" alt="Xnip2019-11-11_21-25-02"></p><p><img src="/images/Xnip2019-11-11_21-39-39.png" alt="Xnip2019-11-11_21-39-39"></p><p>再次点击 <code>Add rule</code>：</p><p><img src="/images/15734808514403.jpg" alt=""></p><p>在弹出对话框中，找到刚才导入的配置，并点击 <code>Enable</code>：</p><p><img src="/images/Xnip2019-11-11_21-39-52.png" alt="Xnip2019-11-11_21-39-52"></p><p>打开 <code>~/.config/karabiner/karabiner.json</code>，找到如下配置，修改对应的 <code>key_code</code> 为 <code>caps_lock</code>。</p><p><img src="/images/Xnip2019-11-11_21-41-19.png" alt="Xnip2019-11-11_21-41-19"></p><p>打开 <code>System Preferences</code> - <code>Keyboard</code> - <code>Input Sources</code>，勾选 <code>Use the Caps Lock key to switch to and from ABC</code>：</p><p><img src="/images/Xnip2019-11-11_22-05-36.png" alt="Xnip2019-11-11_22-05-36"></p><p>至此，我们已经可以使用 <code>Shfit</code> 实现 “切换中英文”。</p><h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>出于隐私考虑，博主弃用国产输入法。而出于未来的维护性、稳定性考虑，博主选择平台自带输入法，而没有采用更为强大，但配置复杂的 <code>RIME</code> 输入法。</p><p>除此之外，本文只介绍了 <code>Karabiner</code> 功能的冰山一角，推荐感兴趣的同学深入了解一下这个工具。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;Why&quot;&gt;&lt;a href=&quot;#Why&quot; class=&quot;headerlink&quot; title=&quot;Why&quot;&gt;&lt;/a&gt;Why&lt;/h2&gt;&lt;p&gt;首先，回答一下为什么用 &lt;code&gt;macOS&lt;/code&gt; 自带的默认输入法？就博主个人来说，主要是出于隐私考虑，以及回避广告联盟
+      
+    
+    </summary>
+    
+    
+    
+      <category term="macOS" scheme="https://hackers-delight.com/tags/macOS/"/>
+    
+      <category term="效率" scheme="https://hackers-delight.com/tags/%E6%95%88%E7%8E%87/"/>
+    
+  </entry>
   
   <entry>
     <title>aText教程</title>
@@ -38,9 +64,9 @@
     
       <category term="macOS" scheme="https://hackers-delight.com/tags/macOS/"/>
     
-      <category term="Mac" scheme="https://hackers-delight.com/tags/Mac/"/>
-    
       <category term="效率" scheme="https://hackers-delight.com/tags/%E6%95%88%E7%8E%87/"/>
+    
+      <category term="Mac" scheme="https://hackers-delight.com/tags/Mac/"/>
     
       <category term="App" scheme="https://hackers-delight.com/tags/App/"/>
     
