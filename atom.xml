@@ -3,10 +3,10 @@
   <title>一个人的战争</title>
   
   
-  <link href="/atom.xml" rel="self"/>
+  <link href="https://hackers-delight.com/atom.xml" rel="self"/>
   
   <link href="https://hackers-delight.com/"/>
-  <updated>2019-11-11T14:17:13.152Z</updated>
+  <updated>2019-11-11T14:17:13.000Z</updated>
   <id>https://hackers-delight.com/</id>
   
   <author>
@@ -14,31 +14,29 @@
     
   </author>
   
-  <generator uri="http://hexo.io/">Hexo</generator>
+  <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
     <title>macOS实现默认中文输入法Shift切换中英文</title>
     <link href="https://hackers-delight.com/2019/11/11/macos-shift-to-capslock/"/>
     <id>https://hackers-delight.com/2019/11/11/macos-shift-to-capslock/</id>
     <published>2019-11-11T14:17:13.000Z</published>
-    <updated>2019-11-11T14:17:13.152Z</updated>
+    <updated>2019-11-11T14:17:13.000Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="Why"><a href="#Why" class="headerlink" title="Why"></a>Why</h2><p>首先，回答一下为什么用 <code>macOS</code> 自带的默认输入法？就博主个人来说，主要是出于隐私考虑，以及回避广告联盟骚扰。其次，因为博主是 <code>Vim</code> 用户，因此 <code>CapsLock</code> 键已经修改为 <code>Ctrl</code>。</p><h2 id="基本配置"><a href="#基本配置" class="headerlink" title="基本配置"></a>基本配置</h2><p>下载 <a href="https://pqrs.org/osx/karabiner/" target="_blank" rel="noopener">Karabiner</a>，并安装；安装后会提示需要进行一些安全设置，按照说明设置即可。</p><p>在 <code>Karabiner</code> 中切换到 <code>Complex modifications</code>，点击左下角的 <code>Add rule</code>：</p><p><img src="/images/Xnip2019-11-11_21-55-42.png" alt="Xnip2019-11-11_21-55-42"></p><p>在弹出的对话框中选择 <code>Import more rules from the Internet (open a web browser)</code>：</p><p><img src="/images/Xnip2019-11-11_21-57-41.png" alt="Xnip2019-11-11_21-57-41"></p><p>在打开网站中找到如下配置，并导入：</p><p><img src="/images/Xnip2019-11-11_21-39-30.png" alt="Xnip2019-11-11_21-39-30"></p><p><img src="/images/Xnip2019-11-11_21-25-02.png" alt="Xnip2019-11-11_21-25-02"></p><p><img src="/images/Xnip2019-11-11_21-39-39.png" alt="Xnip2019-11-11_21-39-39"></p><p>再次点击 <code>Add rule</code>：</p><p><img src="/images/15734808514403.jpg" alt=""></p><p>在弹出对话框中，找到刚才导入的配置，并点击 <code>Enable</code>：</p><p><img src="/images/Xnip2019-11-11_21-39-52.png" alt="Xnip2019-11-11_21-39-52"></p><p>打开 <code>~/.config/karabiner/karabiner.json</code>，找到如下配置，修改对应的 <code>key_code</code> 为 <code>caps_lock</code>。</p><p><img src="/images/Xnip2019-11-11_21-41-19.png" alt="Xnip2019-11-11_21-41-19"></p><p>打开 <code>System Preferences</code> - <code>Keyboard</code> - <code>Input Sources</code>，勾选 <code>Use the Caps Lock key to switch to and from ABC</code>：</p><p><img src="/images/Xnip2019-11-11_22-05-36.png" alt="Xnip2019-11-11_22-05-36"></p><p>至此，我们已经可以使用 <code>Shfit</code> 实现 “切换中英文”。</p><h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>出于隐私考虑，博主弃用国产输入法。而出于未来的维护性、稳定性考虑，博主选择平台自带输入法，而没有采用更为强大，但配置复杂的 <code>RIME</code> 输入法。</p><p>除此之外，本文只介绍了 <code>Karabiner</code> 功能的冰山一角，推荐感兴趣的同学深入了解一下这个工具。</p>]]></content>
+    <content type="html"><![CDATA[<h2 id="Why"><a href="#Why" class="headerlink" title="Why"></a>Why</h2><p>首先，回答一下为什么用 <code>macOS</code> 自带的默认输入法？就博主个人来说，主要是出于隐私考虑，以及回避广告联盟骚扰。其次，因为博主是 <code>Vim</code> 用户，因此 <code>CapsLock</code> 键已经修改为 <code>Ctrl</code>。</p><h2 id="基本配置"><a href="#基本配置" class="headerlink" title="基本配置"></a>基本配置</h2><p>下载 <a href="https://pqrs.org/osx/karabiner/">Karabiner</a>，并安装；安装后会提示需要进行一些安全设置，按照说明设置即可。</p><p>在 <code>Karabiner</code> 中切换到 <code>Complex modifications</code>，点击左下角的 <code>Add rule</code>：</p><p><img src="/images/Xnip2019-11-11_21-55-42.png" alt="Xnip2019-11-11_21-55-42"></p><p>在弹出的对话框中选择 <code>Import more rules from the Internet (open a web browser)</code>：</p><p><img src="/images/Xnip2019-11-11_21-57-41.png" alt="Xnip2019-11-11_21-57-41"></p><p>在打开网站中找到如下配置，并导入：</p><p><img src="/images/Xnip2019-11-11_21-39-30.png" alt="Xnip2019-11-11_21-39-30"></p><p><img src="/images/Xnip2019-11-11_21-25-02.png" alt="Xnip2019-11-11_21-25-02"></p><p><img src="/images/Xnip2019-11-11_21-39-39.png" alt="Xnip2019-11-11_21-39-39"></p><p>再次点击 <code>Add rule</code>：</p><p><img src="/images/15734808514403.jpg"></p><p>在弹出对话框中，找到刚才导入的配置，并点击 <code>Enable</code>：</p><p><img src="/images/Xnip2019-11-11_21-39-52.png" alt="Xnip2019-11-11_21-39-52"></p><p>打开 <code>~/.config/karabiner/karabiner.json</code>，找到如下配置，修改对应的 <code>key_code</code> 为 <code>caps_lock</code>。</p><p><img src="/images/Xnip2019-11-11_21-41-19.png" alt="Xnip2019-11-11_21-41-19"></p><p>打开 <code>System Preferences</code> - <code>Keyboard</code> - <code>Input Sources</code>，勾选 <code>Use the Caps Lock key to switch to and from ABC</code>：</p><p><img src="/images/Xnip2019-11-11_22-05-36.png" alt="Xnip2019-11-11_22-05-36"></p><p>至此，我们已经可以使用 <code>Shfit</code> 实现 “切换中英文”。</p><h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>出于隐私考虑，博主弃用国产输入法。而出于未来的维护性、稳定性考虑，博主选择平台自带输入法，而没有采用更为强大，但配置复杂的 <code>RIME</code> 输入法。</p><p>除此之外，本文只介绍了 <code>Karabiner</code> 功能的冰山一角，推荐感兴趣的同学深入了解一下这个工具。</p>]]></content>
     
-    <summary type="html">
     
       
       
-        &lt;h2 id=&quot;Why&quot;&gt;&lt;a href=&quot;#Why&quot; class=&quot;headerlink&quot; title=&quot;Why&quot;&gt;&lt;/a&gt;Why&lt;/h2&gt;&lt;p&gt;首先，回答一下为什么用 &lt;code&gt;macOS&lt;/code&gt; 自带的默认输入法？就博主个人来说，主要是出于隐私考虑，以及回避广告联盟
+    <summary type="html">&lt;h2 id=&quot;Why&quot;&gt;&lt;a href=&quot;#Why&quot; class=&quot;headerlink&quot; title=&quot;Why&quot;&gt;&lt;/a&gt;Why&lt;/h2&gt;&lt;p&gt;首先，回答一下为什么用 &lt;code&gt;macOS&lt;/code&gt; 自带的默认输入法？就博主个人来说，主要是出于隐私考虑，以及回避广告联盟</summary>
       
     
-    </summary>
     
     
     
-      <category term="macOS" scheme="https://hackers-delight.com/tags/macOS/"/>
+    <category term="macOS" scheme="https://hackers-delight.com/tags/macOS/"/>
     
-      <category term="效率" scheme="https://hackers-delight.com/tags/%E6%95%88%E7%8E%87/"/>
+    <category term="效率" scheme="https://hackers-delight.com/tags/%E6%95%88%E7%8E%87/"/>
     
   </entry>
   
@@ -47,28 +45,26 @@
     <link href="https://hackers-delight.com/2019/10/29/mac-app-atext/"/>
     <id>https://hackers-delight.com/2019/10/29/mac-app-atext/</id>
     <published>2019-10-29T14:00:00.000Z</published>
-    <updated>2019-10-29T14:22:05.425Z</updated>
+    <updated>2019-10-29T14:00:00.000Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h2><p><a href="https://www.trankynam.com/atext/" target="_blank" rel="noopener">aText</a> 是一款文字输入效率工具，可以配置常用的文本、代码模板、邮件模板等，并通过短语形式进行触发替换。国内的同学可能听过名气更大的 <code>TextExpander</code>，但是 <code>TextExpander</code> 改成订阅制后性价比极低，且很多细节甚至没有 <code>aText</code> 打磨的精细，所以个人更推荐 <code>aText</code>。</p><p>这里给大家推荐一个 <a href="https://www.youtube.com/watch?v=1MRLXfirtsk" target="_blank" rel="noopener">视频</a>，大家可以通过演示了解 <code>aText</code> 的基本功能。</p><h2 id="基本配置"><a href="#基本配置" class="headerlink" title="基本配置"></a>基本配置</h2><p>在菜单栏中选择 <code>aText</code> - <code>Show aText...</code>：</p><p><img src="/images/Xnip2019-10-29_21-52-35.png" alt="Xnip2019-10-29_21-52-35"></p><p>创建一个分组，参数按下图配置即可，注意 <code>Abbreviation prefix</code> 建议开启，这样可以大幅减少误操作。</p><p><img src="/images/Xnip2019-10-29_21-49-31.png" alt="Xnip2019-10-29_21-49-31"></p><p>创建一个片段：</p><p><img src="/images/Xnip2019-10-29_21-50-03.png" alt="Xnip2019-10-29_21-50-03"></p><p>输入 <code>`test</code>，再输入 <code>空格</code>、<code>Tab</code>、<code>回车</code> 等按键即可触发补全：</p><p><img src="/images/2019-10-29%2021-46-20.2019-10-29%2021_47_36.gif" alt="2019-10-29 21-46-20.2019-10-29 21_47_36"></p><h2 id="使用变量"><a href="#使用变量" class="headerlink" title="使用变量"></a>使用变量</h2><p>选择 <code>Insert</code> - <code>Field</code> 来插入一个简单的变量：</p><p><img src="/images/Xnip2019-10-29_21-56-11.png" alt="Xnip2019-10-29_21-56-11"></p><p>这里我们使用最简单的 <code>Single-line</code> 类型，并勾选 <code>Editable</code> 选项，允许我们补全时进行修改：</p><p><img src="/images/Xnip2019-10-29_21-57-53.png" alt="Xnip2019-10-29_21-57-53"></p><p>输入 <code>`var</code> 加 <code>空格</code> 触发补全：</p><p><img src="/images/2019-10-29%2022-01-52.2019-10-29%2022_03_11.gif" alt="2019-10-29 22-01-52.2019-10-29 22_03_11"></p><h2 id="一些使用技巧"><a href="#一些使用技巧" class="headerlink" title="一些使用技巧"></a>一些使用技巧</h2><p>可以通过设置多个相同的触发词来进行补全选择，这种情况下，一般推荐填写 <code>Label</code> 来进行区分：</p><p><img src="/images/Xnip2019-10-29_22-08-07.png" alt="Xnip2019-10-29_22-08-07"></p><p>在候选补全列表弹出时，可以使用数字键快速选择；在弹出的补全模板窗口中，可以使用 <code>Tab</code> 键切换到下一个输入框，<code>Shift + Tab</code> 切换到前一个输入框。</p><p><img src="/images/2019-10-29%2022-06-57.2019-10-29%2022_07_16.gif" alt="2019-10-29 22-06-57.2019-10-29 22_07_16"></p><h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>本文简单介绍了 <code>aText</code> 的基本使用方法，但其功能远不止如此，有兴趣的同学可以自行探索。</p><p>另外，如果是购买了 <code>Alfred Powerpack</code> 的用户，可以看看 <code>Alfred</code> 的 <code>Snippets</code> 功能，基本可以达到 <code>aText</code> 功能的 <code>80%</code>。</p>]]></content>
+    <content type="html"><![CDATA[<h2 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h2><p><a href="https://www.trankynam.com/atext/">aText</a> 是一款文字输入效率工具，可以配置常用的文本、代码模板、邮件模板等，并通过短语形式进行触发替换。国内的同学可能听过名气更大的 <code>TextExpander</code>，但是 <code>TextExpander</code> 改成订阅制后性价比极低，且很多细节甚至没有 <code>aText</code> 打磨的精细，所以个人更推荐 <code>aText</code>。</p><p>这里给大家推荐一个 <a href="https://www.youtube.com/watch?v=1MRLXfirtsk">视频</a>，大家可以通过演示了解 <code>aText</code> 的基本功能。</p><h2 id="基本配置"><a href="#基本配置" class="headerlink" title="基本配置"></a>基本配置</h2><p>在菜单栏中选择 <code>aText</code> - <code>Show aText...</code>：</p><p><img src="/images/Xnip2019-10-29_21-52-35.png" alt="Xnip2019-10-29_21-52-35"></p><p>创建一个分组，参数按下图配置即可，注意 <code>Abbreviation prefix</code> 建议开启，这样可以大幅减少误操作。</p><p><img src="/images/Xnip2019-10-29_21-49-31.png" alt="Xnip2019-10-29_21-49-31"></p><p>创建一个片段：</p><p><img src="/images/Xnip2019-10-29_21-50-03.png" alt="Xnip2019-10-29_21-50-03"></p><p>输入 <code> `test</code>，再输入 <code>空格</code>、<code>Tab</code>、<code>回车</code> 等按键即可触发补全：</p><p><img src="/images/2019-10-29%2021-46-20.2019-10-29%2021_47_36.gif" alt="2019-10-29 21-46-20.2019-10-29 21_47_36"></p><h2 id="使用变量"><a href="#使用变量" class="headerlink" title="使用变量"></a>使用变量</h2><p>选择 <code>Insert</code> - <code>Field</code> 来插入一个简单的变量：</p><p><img src="/images/Xnip2019-10-29_21-56-11.png" alt="Xnip2019-10-29_21-56-11"></p><p>这里我们使用最简单的 <code>Single-line</code> 类型，并勾选 <code>Editable</code> 选项，允许我们补全时进行修改：</p><p><img src="/images/Xnip2019-10-29_21-57-53.png" alt="Xnip2019-10-29_21-57-53"></p><p>输入 <code> `var</code> 加 <code>空格</code> 触发补全：</p><p><img src="/images/2019-10-29%2022-01-52.2019-10-29%2022_03_11.gif" alt="2019-10-29 22-01-52.2019-10-29 22_03_11"></p><h2 id="一些使用技巧"><a href="#一些使用技巧" class="headerlink" title="一些使用技巧"></a>一些使用技巧</h2><p>可以通过设置多个相同的触发词来进行补全选择，这种情况下，一般推荐填写 <code>Label</code> 来进行区分：</p><p><img src="/images/Xnip2019-10-29_22-08-07.png" alt="Xnip2019-10-29_22-08-07"></p><p>在候选补全列表弹出时，可以使用数字键快速选择；在弹出的补全模板窗口中，可以使用 <code>Tab</code> 键切换到下一个输入框，<code>Shift + Tab</code> 切换到前一个输入框。</p><p><img src="/images/2019-10-29%2022-06-57.2019-10-29%2022_07_16.gif" alt="2019-10-29 22-06-57.2019-10-29 22_07_16"></p><h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>本文简单介绍了 <code>aText</code> 的基本使用方法，但其功能远不止如此，有兴趣的同学可以自行探索。</p><p>另外，如果是购买了 <code>Alfred Powerpack</code> 的用户，可以看看 <code>Alfred</code> 的 <code>Snippets</code> 功能，基本可以达到 <code>aText</code> 功能的 <code>80%</code>。</p>]]></content>
     
-    <summary type="html">
     
       
       
-        &lt;h2 id=&quot;简介&quot;&gt;&lt;a href=&quot;#简介&quot; class=&quot;headerlink&quot; title=&quot;简介&quot;&gt;&lt;/a&gt;简介&lt;/h2&gt;&lt;p&gt;&lt;a href=&quot;https://www.trankynam.com/atext/&quot; target=&quot;_blank&quot; rel=&quot;noopen
+    <summary type="html">&lt;h2 id=&quot;简介&quot;&gt;&lt;a href=&quot;#简介&quot; class=&quot;headerlink&quot; title=&quot;简介&quot;&gt;&lt;/a&gt;简介&lt;/h2&gt;&lt;p&gt;&lt;a href=&quot;https://www.trankynam.com/atext/&quot;&gt;aText&lt;/a&gt; 是一款文字输入效率工具，可以配置常</summary>
       
     
-    </summary>
     
     
     
-      <category term="macOS" scheme="https://hackers-delight.com/tags/macOS/"/>
+    <category term="macOS" scheme="https://hackers-delight.com/tags/macOS/"/>
     
-      <category term="效率" scheme="https://hackers-delight.com/tags/%E6%95%88%E7%8E%87/"/>
+    <category term="效率" scheme="https://hackers-delight.com/tags/%E6%95%88%E7%8E%87/"/>
     
-      <category term="Mac" scheme="https://hackers-delight.com/tags/Mac/"/>
+    <category term="Mac" scheme="https://hackers-delight.com/tags/Mac/"/>
     
-      <category term="App" scheme="https://hackers-delight.com/tags/App/"/>
+    <category term="App" scheme="https://hackers-delight.com/tags/App/"/>
     
   </entry>
   
@@ -77,26 +73,24 @@
     <link href="https://hackers-delight.com/2019/10/26/awesome-mac-apps/"/>
     <id>https://hackers-delight.com/2019/10/26/awesome-mac-apps/</id>
     <published>2019-10-26T12:47:53.000Z</published>
-    <updated>2019-10-27T01:48:43.366Z</updated>
+    <updated>2019-10-26T12:47:53.000Z</updated>
     
-    <content type="html"><![CDATA[<p>分享一些博主日常工作中常用的 <code>Mac</code> 软件，部分收费软件会给出免费的替代品。</p><p><strong>NOTE:</strong> 本文只介绍图形应用，命令行工具会在后续博文中介绍。</p><h2 id="效率"><a href="#效率" class="headerlink" title="效率"></a>效率</h2><h3 id="Alfred"><a href="#Alfred" class="headerlink" title="Alfred"></a>Alfred</h3><p>官网：<a href="https://www.alfredapp.com/" target="_blank" rel="noopener">https://www.alfredapp.com/</a><br>推荐指数：★★★★★<br>售价：基础功能免费，<code>Alfred Powerpack</code> 版本买断 €29，终身升级 €39</p><p><code>Mac</code> 上鼎鼎大名的效率工具，付费开通 <code>Alfred Powerpack</code> 后，效率更是大幅提升。</p><p>可以参考少数派的文章：</p><ul><li><a href="https://sspai.com/post/56175" target="_blank" rel="noopener">一站式文件处理中心：Alfred 文件搜索 &amp; 处理详解</a></li><li><a href="https://sspai.com/post/55098" target="_blank" rel="noopener">一切为了让效率更进一步，Alfred 4.0 更新详解</a></li><li><a href="https://sspai.com/post/43973" target="_blank" rel="noopener">总是在 Mac 「装机必备」看到的搜索利器 Alfred，究竟是怎么用的？| 新手问号</a></li><li><a href="https://sspai.com/post/35927" target="_blank" rel="noopener">使用 Alfred 提高你的工作效率 | Matrix 精选</a></li></ul><h3 id="aText"><a href="#aText" class="headerlink" title="aText"></a>aText</h3><p>官网：<a href="https://www.trankynam.com/atext/" target="_blank" rel="noopener">https://www.trankynam.com/atext/</a><br>推荐指数：★★★★★<br>售价：¥30</p><p>便宜好用的文字效率输入工具，售价 ¥30 的 <code>aText</code> 丝毫不逊色于一年几百块的 <code>TextExpander</code>，甚至有些细节做的更好。建议观看官网上的演示视频，并下载试用(21天免费试用)。</p><h3 id="Hammerspoon"><a href="#Hammerspoon" class="headerlink" title="Hammerspoon"></a>Hammerspoon</h3><p>官网：<a href="https://www.hammerspoon.org/" target="_blank" rel="noopener">https://www.hammerspoon.org/</a><br>推荐指数：★★★★★<br>售价：免费</p><p>一个开放式的自动化框架，可以通过 <code>Lua</code> 调用众多系统级别 <code>API</code>，完成诸如窗口管理、快速切换应用、<code>Wifi</code> 自动切换、控制播放器等功能。这款工具因为需要编写 <code>Lua</code> 脚本，因此上手难度较高，但是可定制程度极高。</p><h3 id="Unclutter"><a href="#Unclutter" class="headerlink" title="Unclutter"></a>Unclutter</h3><p>官网：<a href="https://unclutterapp.com/" target="_blank" rel="noopener">https://unclutterapp.com/</a><br>推荐指数：★★★★<br>售价：¥140</p><p>可通过快捷键或鼠标快速访问剪贴板、笔记、文件，可参考少数派文章 <a href="https://sspai.com/post/28798" target="_blank" rel="noopener">在 Mac 上「速记」的正确姿势：Unclutter</a>。</p><h2 id="系统"><a href="#系统" class="headerlink" title="系统"></a>系统</h2><h3 id="Bartender"><a href="#Bartender" class="headerlink" title="Bartender"></a>Bartender</h3><p>官网：<a href="https://www.macbartender.com/" target="_blank" rel="noopener">https://www.macbartender.com/</a><br>推荐指数：★★★<br>售价：¥112</p><p>这款应用用来解决菜单栏图标过多的问题，对于喜欢折腾各种工具的群体很实用。如果不想付费，可以考虑开源免费的 <a href="https://github.com/Mortennn/Dozer" target="_blank" rel="noopener">Dozer</a>。</p><h3 id="iStat-Menus"><a href="#iStat-Menus" class="headerlink" title="iStat Menus"></a>iStat Menus</h3><p>官网：<a href="https://bjango.com/mac/istatmenus/" target="_blank" rel="noopener">https://bjango.com/mac/istatmenus/</a><br>推荐指数：★★★<br>售价：¥85</p><p>可以很方便的在菜单栏上显示系统的各种状态(<code>CPU</code> 使用率、内存占用、网速、磁盘 <code>I/O</code>)，适合程序员群体。此应用的免费替代品品质与其相差甚远，不做推荐。</p><h3 id="ForkLift"><a href="#ForkLift" class="headerlink" title="ForkLift"></a>ForkLift</h3><p>官网：<a href="https://binarynights.com/" target="_blank" rel="noopener">https://binarynights.com/</a><br>推荐指数：★★★★<br>售价：¥210</p><p>非常强大的双窗口管理工具，可参考少数派上的文章 <a href="https://sspai.com/post/40554" target="_blank" rel="noopener">被忽视的 FTP 与文件管理工具：ForkLift 3 for Mac</a>。</p><h2 id="阅读"><a href="#阅读" class="headerlink" title="阅读"></a>阅读</h2><h3 id="PDF-Expert"><a href="#PDF-Expert" class="headerlink" title="PDF Expert"></a>PDF Expert</h3><p>官网：<a href="https://binarynights.com/" target="_blank" rel="noopener">https://binarynights.com/</a><br>推荐指数：★★★<br>售价：¥570</p><p>快速、稳定、美观的 <code>PDF</code> 编辑器，不要被其售价吓到，有很多渠道可以以远低于官网售价的价格购买。</p><h3 id="Reeder"><a href="#Reeder" class="headerlink" title="Reeder"></a>Reeder</h3><p>官网：<a href="https://reederapp.com/" target="_blank" rel="noopener">https://reederapp.com/</a><br>推荐指数：★★★★<br>售价：¥70</p><p>好用、美观的 <code>RSS</code> 阅读器，适合 <code>RSS</code> 重度用户使用。</p><h3 id="Calibre"><a href="#Calibre" class="headerlink" title="Calibre"></a>Calibre</h3><p>官网：<a href="https://calibre-ebook.com/" target="_blank" rel="noopener">https://calibre-ebook.com/</a><br>推荐指数：★★★★<br>售价：免费</p><p>电子书的一站式管理工具，非常强大。博主个人只用来做电子书的格式装换，并不用其来管理电子书。</p><h2 id="媒体"><a href="#媒体" class="headerlink" title="媒体"></a>媒体</h2><h3 id="IINA"><a href="#IINA" class="headerlink" title="IINA"></a>IINA</h3><p>官网：<a href="https://iina.io/" target="_blank" rel="noopener">https://iina.io/</a><br>推荐指数：★★★★★<br>售价：免费</p><p><code>macOS</code> 上的现代影音播放器，个人认为是最好用的播放器，没有之一。</p><h3 id="HandBrake"><a href="#HandBrake" class="headerlink" title="HandBrake"></a>HandBrake</h3><p>官网：<a href="https://handbrake.fr/" target="_blank" rel="noopener">https://handbrake.fr/</a><br>推荐指数：★★★★★<br>售价：免费</p><p>视频转换工具，压缩比非常好。</p><h3 id="Downie"><a href="#Downie" class="headerlink" title="Downie"></a>Downie</h3><p>官网：<a href="https://software.charliemonroe.net/downie/" target="_blank" rel="noopener">https://software.charliemonroe.net/downie/</a><br>推荐指数：★★★★★<br>售价：¥240</p><p>可以下载各种网站上的视频，别再浪费时间找各种免费工具或者网站了，毕竟时间成本也很高。此软件也可以通过第三方渠道购买，比官网便宜很多。</p><h2 id="开发"><a href="#开发" class="headerlink" title="开发"></a>开发</h2><h3 id="SnippetsLab"><a href="#SnippetsLab" class="headerlink" title="SnippetsLab"></a>SnippetsLab</h3><p>官网：<a href="https://www.renfei.org/snippets-lab/" target="_blank" rel="noopener">https://www.renfei.org/snippets-lab/</a><br>推荐指数：★★★★<br>售价：¥70</p><p>代码片段管理工具，日常工作、学习使用效率会很高。</p><h3 id="iTerm2"><a href="#iTerm2" class="headerlink" title="iTerm2"></a>iTerm2</h3><p>官网：<a href="https://www.iterm2.com/" target="_blank" rel="noopener">https://www.iterm2.com/</a><br>推荐指数：★★★★★<br>售价：免费</p><p><code>Mac</code> 上最好用的免费终端，同样是没有之一。</p><h3 id="CodeRunner"><a href="#CodeRunner" class="headerlink" title="CodeRunner"></a>CodeRunner</h3><p>官网：<a href="https://coderunnerapp.com/" target="_blank" rel="noopener">https://coderunnerapp.com/</a><br>推荐指数：★★★★★<br>售价：¥105</p><p>可以非常快速的编写一些代码片段验证自己的想法，当然免费的替代品也很多，可以看看 <code>VSCode</code> 中的 <code>Code Runner</code> 插件。</p><h3 id="Paw"><a href="#Paw" class="headerlink" title="Paw"></a>Paw</h3><p>官网：<a href="https://paw.cloud/" target="_blank" rel="noopener">https://paw.cloud/</a><br>推荐指数：★★★★<br>售价：¥350</p><p>号称 <code>Mac</code> 上最高级的 <code>API</code> 工具，测试 <code>HTTP API</code> 非常方便、强大。如果需求不是很多，可以看看免费的 <code>Chrome</code> 插件 <a href="https://chrome.google.com/webstore/detail/talend-api-tester-free-ed/aejoelaoggembcahagimdiliamlcdmfm" target="_blank" rel="noopener">Talend API Tester - Free Edition</a>。</p><h3 id="Fork"><a href="#Fork" class="headerlink" title="Fork"></a>Fork</h3><p>官网：<a href="https://git-fork.com/" target="_blank" rel="noopener">https://git-fork.com/</a><br>推荐指数：★★★★★<br>售价：免费</p><p>非常好用的 <code>Git</code> 客户端，支持 <code>Mac</code> 和 <code>Windows</code> 平台。</p><h3 id="Sequel-Pro"><a href="#Sequel-Pro" class="headerlink" title="Sequel Pro"></a>Sequel Pro</h3><p>官网：<a href="https://www.sequelpro.com/" target="_blank" rel="noopener">https://www.sequelpro.com/</a><br>推荐指数：★★★★★<br>售价：免费</p><p>免费好用的 <code>MySQL</code> 客户端，喜欢命令行的同学，也可以试试 <a href="https://www.mycli.net/" target="_blank" rel="noopener">mycli</a>。</p>]]></content>
+    <content type="html"><![CDATA[<p>分享一些博主日常工作中常用的 <code>Mac</code> 软件，部分收费软件会给出免费的替代品。</p><p><strong>NOTE:</strong> 本文只介绍图形应用，命令行工具会在后续博文中介绍。</p><h2 id="效率"><a href="#效率" class="headerlink" title="效率"></a>效率</h2><h3 id="Alfred"><a href="#Alfred" class="headerlink" title="Alfred"></a>Alfred</h3><p>官网：<a href="https://www.alfredapp.com/">https://www.alfredapp.com/</a><br>推荐指数：★★★★★<br>售价：基础功能免费，<code>Alfred Powerpack</code> 版本买断 €29，终身升级 €39</p><p><code>Mac</code> 上鼎鼎大名的效率工具，付费开通 <code>Alfred Powerpack</code> 后，效率更是大幅提升。</p><p>可以参考少数派的文章：</p><ul><li><a href="https://sspai.com/post/56175">一站式文件处理中心：Alfred 文件搜索 &amp; 处理详解</a></li><li><a href="https://sspai.com/post/55098">一切为了让效率更进一步，Alfred 4.0 更新详解</a></li><li><a href="https://sspai.com/post/43973">总是在 Mac 「装机必备」看到的搜索利器 Alfred，究竟是怎么用的？| 新手问号</a></li><li><a href="https://sspai.com/post/35927">使用 Alfred 提高你的工作效率 | Matrix 精选</a></li></ul><h3 id="aText"><a href="#aText" class="headerlink" title="aText"></a>aText</h3><p>官网：<a href="https://www.trankynam.com/atext/">https://www.trankynam.com/atext/</a><br>推荐指数：★★★★★<br>售价：¥30</p><p>便宜好用的文字效率输入工具，售价 ¥30 的 <code>aText</code> 丝毫不逊色于一年几百块的 <code>TextExpander</code>，甚至有些细节做的更好。建议观看官网上的演示视频，并下载试用(21天免费试用)。</p><h3 id="Hammerspoon"><a href="#Hammerspoon" class="headerlink" title="Hammerspoon"></a>Hammerspoon</h3><p>官网：<a href="https://www.hammerspoon.org/">https://www.hammerspoon.org/</a><br>推荐指数：★★★★★<br>售价：免费</p><p>一个开放式的自动化框架，可以通过 <code>Lua</code> 调用众多系统级别 <code>API</code>，完成诸如窗口管理、快速切换应用、<code>Wifi</code> 自动切换、控制播放器等功能。这款工具因为需要编写 <code>Lua</code> 脚本，因此上手难度较高，但是可定制程度极高。</p><h3 id="Unclutter"><a href="#Unclutter" class="headerlink" title="Unclutter"></a>Unclutter</h3><p>官网：<a href="https://unclutterapp.com/">https://unclutterapp.com/</a><br>推荐指数：★★★★<br>售价：¥140</p><p>可通过快捷键或鼠标快速访问剪贴板、笔记、文件，可参考少数派文章 <a href="https://sspai.com/post/28798">在 Mac 上「速记」的正确姿势：Unclutter</a>。</p><h2 id="系统"><a href="#系统" class="headerlink" title="系统"></a>系统</h2><h3 id="Bartender"><a href="#Bartender" class="headerlink" title="Bartender"></a>Bartender</h3><p>官网：<a href="https://www.macbartender.com/">https://www.macbartender.com/</a><br>推荐指数：★★★<br>售价：¥112</p><p>这款应用用来解决菜单栏图标过多的问题，对于喜欢折腾各种工具的群体很实用。如果不想付费，可以考虑开源免费的 <a href="https://github.com/Mortennn/Dozer">Dozer</a>。</p><h3 id="iStat-Menus"><a href="#iStat-Menus" class="headerlink" title="iStat Menus"></a>iStat Menus</h3><p>官网：<a href="https://bjango.com/mac/istatmenus/">https://bjango.com/mac/istatmenus/</a><br>推荐指数：★★★<br>售价：¥85</p><p>可以很方便的在菜单栏上显示系统的各种状态(<code>CPU</code> 使用率、内存占用、网速、磁盘 <code>I/O</code>)，适合程序员群体。此应用的免费替代品品质与其相差甚远，不做推荐。</p><h3 id="ForkLift"><a href="#ForkLift" class="headerlink" title="ForkLift"></a>ForkLift</h3><p>官网：<a href="https://binarynights.com/">https://binarynights.com/</a><br>推荐指数：★★★★<br>售价：¥210</p><p>非常强大的双窗口管理工具，可参考少数派上的文章 <a href="https://sspai.com/post/40554">被忽视的 FTP 与文件管理工具：ForkLift 3 for Mac</a>。</p><h2 id="阅读"><a href="#阅读" class="headerlink" title="阅读"></a>阅读</h2><h3 id="PDF-Expert"><a href="#PDF-Expert" class="headerlink" title="PDF Expert"></a>PDF Expert</h3><p>官网：<a href="https://binarynights.com/">https://binarynights.com/</a><br>推荐指数：★★★<br>售价：¥570</p><p>快速、稳定、美观的 <code>PDF</code> 编辑器，不要被其售价吓到，有很多渠道可以以远低于官网售价的价格购买。</p><h3 id="Reeder"><a href="#Reeder" class="headerlink" title="Reeder"></a>Reeder</h3><p>官网：<a href="https://reederapp.com/">https://reederapp.com/</a><br>推荐指数：★★★★<br>售价：¥70</p><p>好用、美观的 <code>RSS</code> 阅读器，适合 <code>RSS</code> 重度用户使用。</p><h3 id="Calibre"><a href="#Calibre" class="headerlink" title="Calibre"></a>Calibre</h3><p>官网：<a href="https://calibre-ebook.com/">https://calibre-ebook.com/</a><br>推荐指数：★★★★<br>售价：免费</p><p>电子书的一站式管理工具，非常强大。博主个人只用来做电子书的格式装换，并不用其来管理电子书。</p><h2 id="媒体"><a href="#媒体" class="headerlink" title="媒体"></a>媒体</h2><h3 id="IINA"><a href="#IINA" class="headerlink" title="IINA"></a>IINA</h3><p>官网：<a href="https://iina.io/">https://iina.io/</a><br>推荐指数：★★★★★<br>售价：免费</p><p><code>macOS</code> 上的现代影音播放器，个人认为是最好用的播放器，没有之一。</p><h3 id="HandBrake"><a href="#HandBrake" class="headerlink" title="HandBrake"></a>HandBrake</h3><p>官网：<a href="https://handbrake.fr/">https://handbrake.fr/</a><br>推荐指数：★★★★★<br>售价：免费</p><p>视频转换工具，压缩比非常好。</p><h3 id="Downie"><a href="#Downie" class="headerlink" title="Downie"></a>Downie</h3><p>官网：<a href="https://software.charliemonroe.net/downie/">https://software.charliemonroe.net/downie/</a><br>推荐指数：★★★★★<br>售价：¥240</p><p>可以下载各种网站上的视频，别再浪费时间找各种免费工具或者网站了，毕竟时间成本也很高。此软件也可以通过第三方渠道购买，比官网便宜很多。</p><h2 id="开发"><a href="#开发" class="headerlink" title="开发"></a>开发</h2><h3 id="SnippetsLab"><a href="#SnippetsLab" class="headerlink" title="SnippetsLab"></a>SnippetsLab</h3><p>官网：<a href="https://www.renfei.org/snippets-lab/">https://www.renfei.org/snippets-lab/</a><br>推荐指数：★★★★<br>售价：¥70</p><p>代码片段管理工具，日常工作、学习使用效率会很高。</p><h3 id="iTerm2"><a href="#iTerm2" class="headerlink" title="iTerm2"></a>iTerm2</h3><p>官网：<a href="https://www.iterm2.com/">https://www.iterm2.com/</a><br>推荐指数：★★★★★<br>售价：免费</p><p><code>Mac</code> 上最好用的免费终端，同样是没有之一。</p><h3 id="CodeRunner"><a href="#CodeRunner" class="headerlink" title="CodeRunner"></a>CodeRunner</h3><p>官网：<a href="https://coderunnerapp.com/">https://coderunnerapp.com/</a><br>推荐指数：★★★★★<br>售价：¥105</p><p>可以非常快速的编写一些代码片段验证自己的想法，当然免费的替代品也很多，可以看看 <code>VSCode</code> 中的 <code>Code Runner</code> 插件。</p><h3 id="Paw"><a href="#Paw" class="headerlink" title="Paw"></a>Paw</h3><p>官网：<a href="https://paw.cloud/">https://paw.cloud/</a><br>推荐指数：★★★★<br>售价：¥350</p><p>号称 <code>Mac</code> 上最高级的 <code>API</code> 工具，测试 <code>HTTP API</code> 非常方便、强大。如果需求不是很多，可以看看免费的 <code>Chrome</code> 插件 <a href="https://chrome.google.com/webstore/detail/talend-api-tester-free-ed/aejoelaoggembcahagimdiliamlcdmfm">Talend API Tester - Free Edition</a>。</p><h3 id="Fork"><a href="#Fork" class="headerlink" title="Fork"></a>Fork</h3><p>官网：<a href="https://git-fork.com/">https://git-fork.com/</a><br>推荐指数：★★★★★<br>售价：免费</p><p>非常好用的 <code>Git</code> 客户端，支持 <code>Mac</code> 和 <code>Windows</code> 平台。</p><h3 id="Sequel-Pro"><a href="#Sequel-Pro" class="headerlink" title="Sequel Pro"></a>Sequel Pro</h3><p>官网：<a href="https://www.sequelpro.com/">https://www.sequelpro.com/</a><br>推荐指数：★★★★★<br>售价：免费</p><p>免费好用的 <code>MySQL</code> 客户端，喜欢命令行的同学，也可以试试 <a href="https://www.mycli.net/">mycli</a>。</p>]]></content>
     
-    <summary type="html">
     
       
       
-        &lt;p&gt;分享一些博主日常工作中常用的 &lt;code&gt;Mac&lt;/code&gt; 软件，部分收费软件会给出免费的替代品。&lt;/p&gt;
+    <summary type="html">&lt;p&gt;分享一些博主日常工作中常用的 &lt;code&gt;Mac&lt;/code&gt; 软件，部分收费软件会给出免费的替代品。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;NOTE:&lt;/strong&gt; 本文只介绍图形应用，命令行工具会在后续博文中介绍。&lt;/p&gt;
-&lt;h2 id=&quot;效率&quot;&gt;&lt;a href=&quot;#效率&quot;
+&lt;h2 id=&quot;效率&quot;&gt;&lt;a href=&quot;#效率&quot;</summary>
       
     
-    </summary>
     
     
     
-      <category term="macOS" scheme="https://hackers-delight.com/tags/macOS/"/>
+    <category term="macOS" scheme="https://hackers-delight.com/tags/macOS/"/>
     
-      <category term="效率" scheme="https://hackers-delight.com/tags/%E6%95%88%E7%8E%87/"/>
+    <category term="效率" scheme="https://hackers-delight.com/tags/%E6%95%88%E7%8E%87/"/>
     
   </entry>
   
@@ -105,19 +99,17 @@
     <link href="https://hackers-delight.com/2019/10/26/old-blog/"/>
     <id>https://hackers-delight.com/2019/10/26/old-blog/</id>
     <published>2019-10-26T07:22:48.000Z</published>
-    <updated>2019-10-26T07:24:38.523Z</updated>
+    <updated>2019-10-26T07:22:48.000Z</updated>
     
-    <content type="html"><![CDATA[<p><a href="https://blog.csdn.net/mdl13412" target="_blank" rel="noopener">旧博客</a></p>]]></content>
+    <content type="html"><![CDATA[<p><a href="https://blog.csdn.net/mdl13412">旧博客</a></p>]]></content>
     
-    <summary type="html">
     
       
       
-        &lt;p&gt;&lt;a href=&quot;https://blog.csdn.net/mdl13412&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;旧博客&lt;/a&gt;&lt;/p&gt;
-
+    <summary type="html">&lt;p&gt;&lt;a href=&quot;https://blog.csdn.net/mdl13412&quot;&gt;旧博客&lt;/a&gt;&lt;/p&gt;
+</summary>
       
     
-    </summary>
     
     
     
