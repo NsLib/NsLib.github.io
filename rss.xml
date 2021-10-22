@@ -1,35 +1,44 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 
-<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-CN">
-    <title type="text">一个人的战争</title>
-    <subtitle type="html">一个人的战争</subtitle>
-    <updated>2021-10-22T22:35:14&#43;08:00</updated>
-    <id>https://hackers-delight.com/</id>
-    <link rel="alternate" type="text/html" href="https://hackers-delight.com/" />
-    <link rel="self" type="application/atom&#43;xml" href="https://hackers-delight.com/atom.xml" />
-    <author>
-            <name>凝霜</name>
-            <uri>https://hackers-delight.com/</uri>
-            
-                <email>MDL13412&lt;at&gt;gmail.com</email>
-            </author>
-    <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights>
-    <generator uri="https://gohugo.io/" version="0.88.1">Hugo</generator>
-        <entry>
-            <title type="text">aText教程</title>
-            <link rel="alternate" type="text/html" href="https://hackers-delight.com/posts/mac-app-atext/" />
-            <id>https://hackers-delight.com/posts/mac-app-atext/</id>
-            <updated>2021-10-22T22:19:22&#43;08:00</updated>
-            <published>2019-10-29T22:00:00&#43;08:00</published>
-            <author>
-                    <name>凝霜</name>
-                    <uri>https://hackers-delight.com/</uri>
-                    <email>MDL13412&lt;at&gt;gmail.com</email>
-                    </author>
-            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">简介 aText 是一款文字输入效率工具，可以配置常用的文本、代码模板、邮件模板等，并通过短语形……</summary>
-            
-                <content type="html">&lt;h2 id=&#34;简介&#34;&gt;简介&lt;/h2&gt;
+
+
+
+
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>一个人的战争</title>
+        <link>https://hackers-delight.com/</link>
+        <description>一个人的战争</description>
+        <generator>Hugo 0.88.1 https://gohugo.io/</generator>
+        
+            <language>zh-CN</language>
+        
+        
+            <managingEditor>MDL13412&lt;at&gt;gmail.com (凝霜)</managingEditor>
+        
+        
+            <webMaster>MDL13412&lt;at&gt;gmail.com (凝霜)</webMaster>
+        
+        
+            <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
+        
+        <lastBuildDate>Fri, 22 Oct 2021 22:35:14 &#43;0800</lastBuildDate>
+        
+            <atom:link rel="self" type="application/rss&#43;xml" href="https://hackers-delight.com/rss.xml" />
+        
+        
+            <item>
+                <title>aText教程</title>
+                <link>https://hackers-delight.com/posts/mac-app-atext/</link>
+                <guid isPermaLink="true">https://hackers-delight.com/posts/mac-app-atext/</guid>
+                <pubDate>Tue, 29 Oct 2019 22:00:00 &#43;0800</pubDate>
+                
+                    <author>MDL13412&lt;at&gt;gmail.com (凝霜)</author>
+                
+                <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
+                
+                    <description>&lt;h2 id=&#34;简介&#34;&gt;简介&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&#34;https://www.trankynam.com/atext/&#34;&gt;aText&lt;/a&gt; 是一款文字输入效率工具，可以配置常用的文本、代码模板、邮件模板等，并通过短语形式进行触发替换。国内的同学可能听过名气更大的 &lt;code&gt;TextExpander&lt;/code&gt;，但是 &lt;code&gt;TextExpander&lt;/code&gt; 改成订阅制后性价比极低，且很多细节甚至没有 &lt;code&gt;aText&lt;/code&gt; 打磨的精细，所以个人更推荐 &lt;code&gt;aText&lt;/code&gt;。&lt;/p&gt;
 &lt;p&gt;这里给大家推荐一个 &lt;a href=&#34;https://www.youtube.com/watch?v=1MRLXfirtsk&#34;&gt;视频&lt;/a&gt;，大家可以通过演示了解 &lt;code&gt;aText&lt;/code&gt; 的基本功能。&lt;/p&gt;
 &lt;h2 id=&#34;基本配置&#34;&gt;基本配置&lt;/h2&gt;
@@ -56,60 +65,57 @@
 &lt;h2 id=&#34;总结&#34;&gt;总结&lt;/h2&gt;
 &lt;p&gt;本文简单介绍了 &lt;code&gt;aText&lt;/code&gt; 的基本使用方法，但其功能远不止如此，有兴趣的同学可以自行探索。&lt;/p&gt;
 &lt;p&gt;另外，如果是购买了 &lt;code&gt;Alfred Powerpack&lt;/code&gt; 的用户，可以看看 &lt;code&gt;Alfred&lt;/code&gt; 的 &lt;code&gt;Snippets&lt;/code&gt; 功能，基本可以达到 &lt;code&gt;aText&lt;/code&gt; 功能的 &lt;code&gt;80%&lt;/code&gt;。&lt;/p&gt;
-</content>
-            
-            
-            
-            
-            
+</description>
                 
-                    
+                
+                
+                
                 
                     
                         
-                            
-                            
-                            
-                                <category scheme="https://hackers-delight.com/tags/macos/" term="macOS" label="macOS" />
-                            
+                    
                         
                             
+                                
+                                
+                                
+                                    <category domain="https://hackers-delight.com/tags/macos/">macOS</category>
+                                
                             
+                                
+                                
+                                
+                                    <category domain="https://hackers-delight.com/tags/mac/">Mac</category>
+                                
                             
-                                <category scheme="https://hackers-delight.com/tags/mac/" term="Mac" label="Mac" />
+                                
+                                
+                                
+                                    <category domain="https://hackers-delight.com/tags/%E6%95%88%E7%8E%87/">效率</category>
+                                
                             
-                        
-                            
-                            
-                            
-                                <category scheme="https://hackers-delight.com/tags/%E6%95%88%E7%8E%87/" term="效率" label="效率" />
-                            
-                        
-                            
-                            
-                            
-                                <category scheme="https://hackers-delight.com/tags/app/" term="App" label="App" />
+                                
+                                
+                                
+                                    <category domain="https://hackers-delight.com/tags/app/">App</category>
+                                
                             
                         
                     
                 
-            
-        </entry>
-    
-        <entry>
-            <title type="text">分享一些高效的Mac软件</title>
-            <link rel="alternate" type="text/html" href="https://hackers-delight.com/posts/awesome-mac-apps/" />
-            <id>https://hackers-delight.com/posts/awesome-mac-apps/</id>
-            <updated>2021-10-22T22:19:19&#43;08:00</updated>
-            <published>2019-10-26T20:47:53&#43;08:00</published>
-            <author>
-                    <name>凝霜</name>
-                    <uri>https://hackers-delight.com/</uri>
-                    <email>MDL13412&lt;at&gt;gmail.com</email>
-                    </author>
-            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">分享一些博主日常工作中常用的 Mac 软件，部分收费软件会给出免费的替代品。 NOTE: 本文只介绍图形……</summary>
-            
-                <content type="html">&lt;p&gt;分享一些博主日常工作中常用的 &lt;code&gt;Mac&lt;/code&gt; 软件，部分收费软件会给出免费的替代品。&lt;/p&gt;
+            </item>
+        
+            <item>
+                <title>分享一些高效的Mac软件</title>
+                <link>https://hackers-delight.com/posts/awesome-mac-apps/</link>
+                <guid isPermaLink="true">https://hackers-delight.com/posts/awesome-mac-apps/</guid>
+                <pubDate>Sat, 26 Oct 2019 20:47:53 &#43;0800</pubDate>
+                
+                    <author>MDL13412&lt;at&gt;gmail.com (凝霜)</author>
+                
+                <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
+                
+                    <description>&lt;p&gt;分享一些博主日常工作中常用的 &lt;code&gt;Mac&lt;/code&gt; 软件，部分收费软件会给出免费的替代品。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;NOTE:&lt;/strong&gt; 本文只介绍图形应用，命令行工具会在后续博文中介绍。&lt;/p&gt;
 &lt;h2 id=&#34;效率&#34;&gt;效率&lt;/h2&gt;
 &lt;h3 id=&#34;alfred&#34;&gt;Alfred&lt;/h3&gt;
@@ -218,74 +224,72 @@
 推荐指数：★★★★★
 售价：免费&lt;/p&gt;
 &lt;p&gt;免费好用的 &lt;code&gt;MySQL&lt;/code&gt; 客户端，喜欢命令行的同学，也可以试试 &lt;a href=&#34;https://www.mycli.net/&#34;&gt;mycli&lt;/a&gt;。&lt;/p&gt;
-</content>
-            
-            
-            
-            
-            
+</description>
                 
-                    
+                
+                
+                
                 
                     
                         
-                            
-                            
-                            
-                                <category scheme="https://hackers-delight.com/tags/macos/" term="macOS" label="macOS" />
-                            
-                        
-                            
-                            
-                            
-                                <category scheme="https://hackers-delight.com/tags/%E6%95%88%E7%8E%87/" term="效率" label="效率" />
-                            
-                        
-                            
-                            
-                            
-                                <category scheme="https://hackers-delight.com/tags/app/" term="App" label="App" />
-                            
-                        
-                    
-                
-            
-        </entry>
-    
-        <entry>
-            <title type="text">旧博客</title>
-            <link rel="alternate" type="text/html" href="https://hackers-delight.com/posts/old-blog/" />
-            <id>https://hackers-delight.com/posts/old-blog/</id>
-            <updated>2021-10-22T22:19:27&#43;08:00</updated>
-            <published>2019-10-26T15:22:48&#43;08:00</published>
-            <author>
-                    <name>凝霜</name>
-                    <uri>https://hackers-delight.com/</uri>
-                    <email>MDL13412&lt;at&gt;gmail.com</email>
-                    </author>
-            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">旧博客</summary>
-            
-                <content type="html">&lt;p&gt;&lt;a href=&#34;https://blog.csdn.net/mdl13412&#34;&gt;旧博客&lt;/a&gt;&lt;/p&gt;
-</content>
-            
-            
-            
-            
-            
-                
-                    
-                
                     
                         
                             
+                                
+                                
+                                
+                                    <category domain="https://hackers-delight.com/tags/macos/">macOS</category>
+                                
                             
+                                
+                                
+                                
+                                    <category domain="https://hackers-delight.com/tags/%E6%95%88%E7%8E%87/">效率</category>
+                                
                             
-                                <category scheme="https://hackers-delight.com/tags/%E5%85%B6%E4%BB%96/" term="其他" label="其他" />
+                                
+                                
+                                
+                                    <category domain="https://hackers-delight.com/tags/app/">App</category>
+                                
                             
                         
                     
                 
-            
-        </entry>
-    
-</feed>
+            </item>
+        
+            <item>
+                <title>旧博客</title>
+                <link>https://hackers-delight.com/posts/old-blog/</link>
+                <guid isPermaLink="true">https://hackers-delight.com/posts/old-blog/</guid>
+                <pubDate>Sat, 26 Oct 2019 15:22:48 &#43;0800</pubDate>
+                
+                    <author>MDL13412&lt;at&gt;gmail.com (凝霜)</author>
+                
+                <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
+                
+                    <description>&lt;p&gt;&lt;a href=&#34;https://blog.csdn.net/mdl13412&#34;&gt;旧博客&lt;/a&gt;&lt;/p&gt;
+</description>
+                
+                
+                
+                
+                
+                    
+                        
+                    
+                        
+                            
+                                
+                                
+                                
+                                    <category domain="https://hackers-delight.com/tags/%E5%85%B6%E4%BB%96/">其他</category>
+                                
+                            
+                        
+                    
+                
+            </item>
+        
+    </channel>
+</rss>

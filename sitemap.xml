@@ -1,99 +1,40 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://hackers-delight.com/baidu_verify_uDVY72JRBi.html</loc>
-    
-    <lastmod>2021-03-13</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://hackers-delight.com/2019/11/11/macos-shift-to-capslock/</loc>
-    
-    <lastmod>2019-11-11</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://hackers-delight.com/2019/10/29/mac-app-atext/</loc>
-    
-    <lastmod>2019-10-29</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://hackers-delight.com/404.html</loc>
-    
-    <lastmod>2019-10-26</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://hackers-delight.com/2019/10/26/awesome-mac-apps/</loc>
-    
-    <lastmod>2019-10-26</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://hackers-delight.com/2019/10/26/old-blog/</loc>
-    
-    <lastmod>2019-10-26</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://hackers-delight.com/about/index.html</loc>
-    
-    <lastmod>2019-10-26</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://hackers-delight.com/search/index.html</loc>
-    
-    <lastmod>2019-10-26</lastmod>
-    
-  </url>
-  
-
-  <url>
+    <loc>https://hackers-delight.com/tags/app/</loc>
+    <lastmod>2021-10-22T22:19:22+08:00</lastmod>
+  </url><url>
+    <loc>https://hackers-delight.com/posts/mac-app-atext/</loc>
+    <lastmod>2021-10-22T22:19:22+08:00</lastmod>
+  </url><url>
+    <loc>https://hackers-delight.com/tags/mac/</loc>
+    <lastmod>2021-10-22T22:19:22+08:00</lastmod>
+  </url><url>
+    <loc>https://hackers-delight.com/tags/macos/</loc>
+    <lastmod>2021-10-22T22:19:22+08:00</lastmod>
+  </url><url>
+    <loc>https://hackers-delight.com/posts/</loc>
+    <lastmod>2021-10-22T22:19:27+08:00</lastmod>
+  </url><url>
+    <loc>https://hackers-delight.com/tags/</loc>
+    <lastmod>2021-10-22T22:19:27+08:00</lastmod>
+  </url><url>
     <loc>https://hackers-delight.com/</loc>
-    <lastmod>2021-03-13</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>1.0</priority>
-  </url>
-
-  
-  <url>
-    <loc>https://hackers-delight.com/tags/macOS/</loc>
-    <lastmod>2021-03-13</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
+    <lastmod>2021-10-22T22:19:27+08:00</lastmod>
+  </url><url>
     <loc>https://hackers-delight.com/tags/%E6%95%88%E7%8E%87/</loc>
-    <lastmod>2021-03-13</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
+    <lastmod>2021-10-22T22:19:22+08:00</lastmod>
+  </url><url>
+    <loc>https://hackers-delight.com/posts/awesome-mac-apps/</loc>
+    <lastmod>2021-10-22T22:19:19+08:00</lastmod>
+  </url><url>
+    <loc>https://hackers-delight.com/tags/%E5%85%B6%E4%BB%96/</loc>
+    <lastmod>2021-10-22T22:19:27+08:00</lastmod>
+  </url><url>
+    <loc>https://hackers-delight.com/posts/old-blog/</loc>
+    <lastmod>2021-10-22T22:19:27+08:00</lastmod>
+  </url><url>
+    <loc>https://hackers-delight.com/categories/</loc>
   </url>
-  
-  <url>
-    <loc>https://hackers-delight.com/tags/Mac/</loc>
-    <lastmod>2021-03-13</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://hackers-delight.com/tags/App/</loc>
-    <lastmod>2021-03-13</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-
-  
 </urlset>
