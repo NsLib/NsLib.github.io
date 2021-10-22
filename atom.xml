@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-CN">
     <title type="text">一个人的战争</title>
     <subtitle type="html">一个人的战争</subtitle>
-    <updated>2021-10-22T22:35:14&#43;08:00</updated>
+    <updated>2021-10-23T07:59:40&#43;08:00</updated>
     <id>https://hackers-delight.com/</id>
     <link rel="alternate" type="text/html" href="https://hackers-delight.com/" />
     <link rel="self" type="application/atom&#43;xml" href="https://hackers-delight.com/atom.xml" />
@@ -20,7 +20,7 @@
             <title type="text">aText教程</title>
             <link rel="alternate" type="text/html" href="https://hackers-delight.com/posts/mac-app-atext/" />
             <id>https://hackers-delight.com/posts/mac-app-atext/</id>
-            <updated>2021-10-22T22:19:22&#43;08:00</updated>
+            <updated>2019-10-29T22:00:00&#43;08:00</updated>
             <published>2019-10-29T22:00:00&#43;08:00</published>
             <author>
                     <name>凝霜</name>
@@ -100,7 +100,7 @@
             <title type="text">分享一些高效的Mac软件</title>
             <link rel="alternate" type="text/html" href="https://hackers-delight.com/posts/awesome-mac-apps/" />
             <id>https://hackers-delight.com/posts/awesome-mac-apps/</id>
-            <updated>2021-10-22T22:19:19&#43;08:00</updated>
+            <updated>2019-10-26T20:47:53&#43;08:00</updated>
             <published>2019-10-26T20:47:53&#43;08:00</published>
             <author>
                     <name>凝霜</name>
@@ -256,7 +256,7 @@
             <title type="text">旧博客</title>
             <link rel="alternate" type="text/html" href="https://hackers-delight.com/posts/old-blog/" />
             <id>https://hackers-delight.com/posts/old-blog/</id>
-            <updated>2021-10-22T22:19:27&#43;08:00</updated>
+            <updated>2019-10-26T15:22:48&#43;08:00</updated>
             <published>2019-10-26T15:22:48&#43;08:00</published>
             <author>
                     <name>凝霜</name>
